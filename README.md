@@ -1,9 +1,12 @@
 # Mobile Telemedicine System : MTS-01
 ---
 ### Document
-1. Doc_Plan : [Planning_Doucument.pdf](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/%EA%B3%84%ED%9A%8D%EC%84%9C_%EC%B5%9C%EC%A2%85.pdf)
-2. Doc_Requirements Define :
+1. Plan
+    - Doc_Plan : [Planning_Doucument.pdf](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Plan/계획서_최종.pdf)
+2. Requirements Analysis
+    - Doc_Interview : [Requirements Analysis_Interview Document.pdf](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/RA_Interview.pdf)
 
 ### Team Schedules
-![gantt](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/gantt_init.png)
+![gantt](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Plan/gantt_init.png)
+[Github Project](https://github.com/ndo04343/KNUSD-20202-09/projects/3)
 
