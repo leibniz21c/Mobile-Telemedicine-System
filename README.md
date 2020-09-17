@@ -13,9 +13,9 @@
 You can watch detaily at [here!](https://github.com/ndo04343/KNUSD-20202-09/tree/master/Doc/Requirements%20Analysis/Questionnaire)
 
 <div>
-    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.40.png?raw=true" width="200" height="100"></img>
-    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.45.png?raw=true" width="200" height="100"></img>
-    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.51.png?raw=true" width="200" height="100"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.40.png?raw=true" width="400" height="200"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.45.png?raw=true" width="400" height="200"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.51.png?raw=true" width="400" height="200"></img>
 </div>
 
 ### Team Schedules
