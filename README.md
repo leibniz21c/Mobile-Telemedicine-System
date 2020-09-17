@@ -10,13 +10,33 @@
         2. [DOC_RAW_Questionnaire_Doctor and Pharmacist](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/설문조사_의료진_RAW_DATA.xlsx)
         
 ### Visualized Questionnaire
-You can watch detaily at [here!](https://github.com/ndo04343/KNUSD-20202-09/tree/master/Doc/Requirements%20Analysis/Questionnaire)
-
+You can watch detaily at [here!](https://github.com/ndo04343/KNUSD-20202-09/tree/master/Doc/Requirements%20Analysis/Questionnaire)<br>
+<strong>Patient : </strong><br>
 <div>
     <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.40.png?raw=true" width="500" height="250"></img>
     <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.45.png?raw=true" width="500" height="250"></img>
     <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.35.51.png?raw=true" width="500" height="250"></img>
-</div>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.00.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.05.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.14.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.18.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.29.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.34.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_P/스크린샷%202020-09-17%20오후%205.36.40.png?raw=true" width="500" height="250"></img>
+</div><br>
+
+<strong>Doctors and Pharmacists</strong><br>
+<div>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.07.png" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.14.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.20.png" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.31.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.42.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.51.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.34.57.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.35.02.png?raw=true" width="500" height="250"></img>
+    <img src="https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/Q_Visualized_DP/스크린샷%202020-09-17%20오후%205.35.09.png?raw=true" width="500" height="250"></img>
+</div><br>
 
 ### Team Schedules
 ![gantt](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Plan/gantt_init.png)
