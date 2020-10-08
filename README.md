@@ -11,6 +11,10 @@
         1. [DOC_RAW_Questionnaire_Patient](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/설문조사_환자_RAW_DATA%202.xlsx)
         2. [DOC_RAW_Questionnaire_Doctor and Pharmacist](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/Questionnaire/설문조사_의료진_RAW_DATA.xlsx)
     - JAD_Personas : [Personas png files](https://github.com/ndo04343/KNUSD-20202-09/tree/master/Doc/Requirements%20Analysis/Personas)
-    - UML Diagrams : [UML Diagram pdf files](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Requirements%20Analysis/UML%20Diagram/Diagrams.pdf)
+
+3. Design
+    - UML Diagrams : [UML Diagram pdf files](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Design/Use%20Case%26Activity%20Diagram/Diagrams.pdf)
+    - Structual Models :    
+        1. Class Diagram : [Class Diagram png file](https://github.com/ndo04343/KNUSD-20202-09/blob/master/Doc/Design/Class%20Diagram/Class%20Diagram.png) 
 
 
