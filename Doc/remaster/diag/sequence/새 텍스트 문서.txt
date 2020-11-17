@@ -1,0 +1,39 @@
+Class Diagram :
+User
+	name, user_id, email, phoneNumber
+	.signin()
+	.signup()
+	.modify_account_information()
+	.isDoctor()
+Doctor
+	d_hospital_id, d_major
+	.check_patient_info()
+	.video_communicate_doc()
+Patients
+	p_address
+	.reserve_diagnosis()
+	.video_communicate_pat()
+Hospital
+	name, address, tel, list_of_major, hospital_id
+	.get_hospital(hospital_id)
+
+Reservation
+	reservation_id, doctor_id, patient_id, date, hour, order
+
+Sequence Diagram :
+<Sign up>
+User -> Account
+	.create_account(user_info)	return account
+Account -> Hospital
+	.check_doctor()	return doctor_id/false
+
+<Log in>
+User -> Account DB
+	.login(email, pw)	return t/f
+
+<Reserve Diagnosis>
+Patient -> 
+
+
+
+
