@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/doctor_logo" />
+
+    <Spinner
+        android:id="@+id/hospital_Name"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/spinner_background"
+        />
+
+    <Spinner
+        android:id="@+id/major"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/spinner_background"/>
+
+
+    <ImageButton
+        android:id="@+id/d_reg_btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/sign_up_button"
+         />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

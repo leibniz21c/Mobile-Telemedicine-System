@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+<LinearLayout
+        android:id="@+id/patient_listview"
+        android:layout_width="360dp"
+        android:layout_height="68dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/listview_request_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="Kim Minsuk"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listview_request_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10/20 15:00"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_true"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/button_round2"
+        android:text="수락"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_false"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/button_round"
+        android:text="거절"
+        android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>
