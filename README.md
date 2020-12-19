@@ -11,7 +11,7 @@
 	5. Patient searching hospital
 	6. Patient searching doctor with hospital information
 <strong>Demo : </strong><br>
- 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=f_qe5PsuE4Y&t=6s" frameborder="0" gesture="media" allowfullscreen=""></iframe>
- 
+
+[![Watch the video](https://github.com/ndo04343/KNUSD-20202-09/pic/demo_video_fake.png)](https://www.youtube.com/watch?v=f_qe5PsuE4Y&t=8s)
+
 <strong>Presentaion : </strong> [Presentation video]()
