@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".DAppActivity">
+
+    <LinearLayout
+        android:id="@+id/appointment_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="15dp"
+            android:baselineAligned="false"
+            android:text="Appointment"
+            android:textColor="#0070C0"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/d_home_btn_refresh"
+            android:layout_width="39dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="12dp"
+            android:background="#FFFFFF"
+            android:baselineAligned="false"
+            android:src="@drawable/refresh" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/d_home_btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:background="#0070C0"
+            android:text="요청"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/d_home_btn_diag"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:text="진료실"
+            android:textColor="#0070C0"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="240dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ten_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="10:00"
+            android:tag="10:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/eleven_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="11:00"
+            android:tag="11:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fifthteen_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="15:00"
+            android:text="15:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sixteen_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="16:00"
+            android:text="16:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3">
+
+    <LinearLayout
+        android:id="@+id/select_time_titlebar_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="15dp"
+            android:baselineAligned="false"
+            android:text="Select Time"
+            android:textColor="#0070C0"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/who_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingStart="40dp"
+        android:text="김동희 is selected"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/p_res_date2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_time_titlebar_linearlayout" />
+
+    <TextView
+        android:id="@+id/p_res_date2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="#0070C0"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="YY / MM / DD"
+        android:onClick="OnClickHandler"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/time_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/who_select" />
+
+    <RadioGroup
+        android:id="@+id/time_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        app:checkedButton="@id/ten_oclock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/p_res_date2"
+        app:singleSelection="true">
+
+        <RadioButton
+            android:id="@+id/ten_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:button="?attr/selectableItemBackgroundBorderless"
+            android:buttonTint="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="10/00"
+            android:text="10:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/eleven_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:button="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="11/00"
+            android:text="11:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/fifteen_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:button="?attr/selectableItemBackgroundBorderless"
+            android:checked="false"
+            android:clickable="true"
+            android:filterTouchesWhenObscured="false"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="15/00"
+            android:text="15:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/sixteen_oclock"
+            android:layout_width="330dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border"
+            android:button="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:tag="16/00"
+            android:text="16:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/p_sel_time_btn_diag"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:background="#0070C0"
+        android:text="예약"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

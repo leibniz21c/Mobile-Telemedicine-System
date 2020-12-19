@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "669143871310",
+    "firebase_url": "https://medifree-a9f8c.firebaseio.com",
+    "project_id": "medifree-a9f8c",
+    "storage_bucket": "medifree-a9f8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669143871310:android:642137d9cba9601fc3381f",
+        "android_client_info": {
+          "package_name": "com.knu.medifree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669143871310-lfovt3sjrlmg85ivgk0rtqmpn4n0ifcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knu.medifree",
+            "certificate_hash": "3969b20509091b2cdbd02b614b12285e1229dc91"
+          }
+        },
+        {
+          "client_id": "669143871310-s6f67pple7fbqrvu09ctncq8adlsqv7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr30QaIhu-27msjHvtbfV3ZdG5DSKPNTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669143871310-s6f67pple7fbqrvu09ctncq8adlsqv7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
