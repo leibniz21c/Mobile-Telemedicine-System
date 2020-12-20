@@ -16,4 +16,4 @@
 
 [![Watch the video](https://github.com/ndo04343/KNUSD-20202-09/blob/master/pic/demo_video_fake.png)](https://www.youtube.com/watch?v=f_qe5PsuE4Y&t=8s)
 
-<strong>Presentaion : </strong> [Presentation video]()
+<strong>Presentaion : </strong> [Presentation video](https://www.youtube.com/watch?v=ZjiN48ZyoVA)
